@@ -18,6 +18,8 @@ class MainActivity : AppCompatActivity() {
         /*val btnCalc = findViewById<Button>(R.id.buttonCalculate)
         btnCalc.setOnClickListener { loanCalculation() }*/
 
+        // Hello
+
         buttonCalculate.setOnClickListener { loanCalculation() }
 
         buttonReset.setOnClickListener {
