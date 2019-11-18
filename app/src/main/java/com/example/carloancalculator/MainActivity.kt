@@ -57,9 +57,9 @@ class MainActivity : AppCompatActivity() {
 
     fun displayResult(carLoan:Double, interest:Double, monthRepay:Double){
 
-        textViewLoan.text = "Loan : RM" + "%.2f".format(carLoan)
-        textViewInterest.text = "Interest : RM" + "%.2f".format(interest)
-        textViewMonthlyRepayment.text = "Monthly Repayment : RM" + "%.2f".format(monthRepay)
+        textViewLoan.text = "Loan : " + "%.2f".format(carLoan)
+        textViewInterest.text = "Interest : " + "%.2f".format(interest)
+        textViewMonthlyRepayment.text = "Monthly Repayment : " + "%.2f".format(monthRepay)
 
         Toast.makeText(applicationContext, "Calculated", Toast.LENGTH_SHORT).show()
 
