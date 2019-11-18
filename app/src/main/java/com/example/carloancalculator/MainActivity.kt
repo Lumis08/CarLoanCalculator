@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
         /*val btnCalc = findViewById<Button>(R.id.buttonCalculate)
         btnCalc.setOnClickListener { loanCalculation() }*/
-        
+
         buttonCalculate.setOnClickListener { loanCalculation() }
 
         buttonReset.setOnClickListener {
@@ -30,6 +30,7 @@ class MainActivity : AppCompatActivity() {
             textViewInterest.text = "Interest :"
             textViewMonthlyRepayment.text = "Monthly Repayment :"
 
+            editTextCarPrice.requestFocus()
             Toast.makeText(applicationContext, "The form is clearred", Toast.LENGTH_SHORT).show()
         }
     }
